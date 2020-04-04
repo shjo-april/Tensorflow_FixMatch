@@ -8,14 +8,14 @@
 - for training, 
 ```sh
 # You want to train FixMatch using single gpu.
-python train.py --use_gpu 0 --num_labels 40 
-python train.py --use_gpu 1 --num_labels 250 
-python train.py --use_gpu 2 --num_labels 4000 
+python train.py --use_gpu 0 --number_of_labels 40 
+python train.py --use_gpu 1 --number_of_labels 250 
+python train.py --use_gpu 2 --number_of_labels 4000 
 
 # You want to train FixMatch using multiple gpus.
-python train.py --use_gpu 0,1,2,3 --num_labels 40 
-python train.py --use_gpu 0,1,2,3 --num_labels 250 
-python train.py --use_gpu 0,1,2,3 --num_labels 4000 
+python train.py --use_gpu 0,1,2,3 --number_of_labels 40 
+python train.py --use_gpu 0,1,2,3 --number_of_labels 250 
+python train.py --use_gpu 0,1,2,3 --number_of_labels 4000 
 ```
 
 - random seed is 0.
@@ -23,7 +23,7 @@ python train.py --use_gpu 0,1,2,3 --num_labels 4000
 | number of labels | 40 | 250 | 4000 |
 |:---|:---:|:---:|:---:|
 | Official implementation (with RA) | 86.19 ± 3.37 | 94.93 ± 0.65 | 95.74 ± 0.05 |
-| My project (with RA) | - | - | 95.43 |
+| My project (with RA) | - | - | 95.62 |
 
 
 ## # References
