@@ -50,7 +50,7 @@ def get_config():
     
     flags.DEFINE_integer('max_epochs', 1<<10, 'unknown')
     flags.DEFINE_integer('train_kimgs', 1<<16, 'unknown')
-
+    
     flags.DEFINE_integer('max_iteration', 1024*1024, 'unknown')
     
     ###############################################################################

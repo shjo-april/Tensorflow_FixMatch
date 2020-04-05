@@ -137,7 +137,7 @@ if __name__ == '__main__':
     unlabeled_loader_option = {
         'debug' : False,
         'bShuffle' : True,
-
+        
         'dataset' : unlabeled_dataset,
         'number_of_loading_dataset' : flags.number_of_loading_dataset,
     }
