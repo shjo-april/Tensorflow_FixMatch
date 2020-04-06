@@ -23,7 +23,7 @@ python train.py --use_gpu 0,1,2,3 --number_of_labels 4000
 | number of labels | 40 | 250 | 4000 |
 |:---|:---:|:---:|:---:|
 | Official implementation (with RA) | 86.19 ± 3.37 | 94.93 ± 0.65 | 95.74 ± 0.05 |
-| My project (with RA) | - | 95.14 | 95.62 |
+| My project (with RA) | 92.39 | 95.14 | 95.62 |
 
 
 ## # References
